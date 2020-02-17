@@ -93,7 +93,7 @@ function renderCircles(circlesGroup, newXScale, chosenXaxis) {
   }
   
   // Retrieve data from the CSV file and execute everything below
-  d3.csv("/data/data.csv").then(function(obs) {
+  d3.csv("https://raw.githubusercontent.com/mjrcarnahan/D3-challenge/master/assets/data/data.csv").then(function(obs) {
     console.log(obs[0]);
   
     // parse data
